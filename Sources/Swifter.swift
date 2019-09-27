@@ -24,6 +24,9 @@
 //
 
 import Foundation
+#if canImport(FoundationNetworking)
+    import FoundationNetworking
+#endif
 import Dispatch
 
 #if os(macOS) || os(iOS)

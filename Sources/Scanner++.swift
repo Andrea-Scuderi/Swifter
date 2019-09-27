@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationNetworking)
+    import FoundationNetworking
+#endif
 
 /// These extensions are needed for API compatibility with Scanner in
 /// swift-corelibs-foundation. These are exactly the same API as in
